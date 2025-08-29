@@ -8,6 +8,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -18,6 +19,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Article {
 
     @Id
@@ -26,8 +28,10 @@ public class Article {
     private String source;
     private String title;
     private String author;
-    private java.util.Date publishedDate;
+    private String publishedDate;
+    @Column(columnDefinition = "TEXT")
     private String content;
+    @Column(length = 200)
     private String categories;
     private String link;
 }

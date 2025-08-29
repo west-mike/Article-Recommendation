@@ -1,0 +1,12 @@
+2025-08-29 14:05:25.219724-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(255)": "'toronto,ap,rapid,unregulated,development,artificial,intelligence,continues,lang... (1986)"; SQL statement:
+insert into articles (author,categories,content,link,published_date,source,title,id) values (?,?,?,?,?,?,?,default) [22001-232]
+2025-08-29 14:06:06.738954-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(255)": "'toronto,ap,rapid,unregulated,development,artificial,intelligence,continues,lang... (1986)"; SQL statement:
+insert into articles (author,categories,content,link,published_date,source,title,id) values (?,?,?,?,?,?,?,default) [22001-232]
+2025-08-29 14:07:30.028932-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(255)": "'toronto,ap,rapid,unregulated,development,artificial,intelligence,continues,lang... (1986)"; SQL statement:
+insert into articles (author,categories,content,link,published_date,source,title,id) values (?,?,?,?,?,?,?,default) [22001-232]
+2025-08-29 14:08:15.440909-04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(255)": "'toronto,ap,rapid,unregulated,development,artificial,intelligence,continues,lang... (1986)"; SQL statement:
+insert into articles (author,categories,content,link,published_date,source,title,id) values (?,?,?,?,?,?,?,default) [22001-232]
